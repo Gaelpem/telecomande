@@ -1,7 +1,7 @@
 .container{
     margin:auto; 
     height: 500px;
-    width: 350px;
+    width: 390px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
 .mini-container{
     padding: 0.5rem;
 border: 2px solid black;
-height: 400px;
+height: 420px;
 width: 300px;
 display: flex;
 align-items: center;
@@ -19,7 +19,8 @@ flex-direction:column;
 
 button{
     border: 1px solid black; 
-    background: none;
+    background: none; 
+    height: 2.3rem;
 }
 
 .tele{
@@ -27,13 +28,62 @@ button{
     padding: 0.5rem;
 }
 .ligne2{
+    margin-top: 1rem;
    display: flex;
-    gap: 1.5rem
+   gap: 2rem
+}
+
+.vide{
+    width: 180px;
 }
 .ligne3{
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-row: ;
-    gap:1.4rem; 
+    gap:1.2rem; 
+}
+.ligne3 button:nth-child(6){
+    width: 2.7rem;
+}
+
+.ligne3 .rien{
+    color:white
+}
+
+.fleche{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: -6.3rem;
+}
+.fleche-{
+    border: 1px solid black;
+    height: 5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 3rem;
+}
+.avant{
+    margin-left: -2.2rem;
+    display: flex;
+
+    gap: 3rem;
+    width: 4rem;
+}
+.-bouton{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 0.4rem;
+row-gap: 0;
+}
+
+.mot{
+    border: 1px solid black;
+    width: 3rem;
+    text-align: center;
+    padding: 0.3rem;
+    
 }
