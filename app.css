@@ -1,0 +1,51 @@
+.container{
+    margin:auto; 
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-container{
+    padding: 0.5rem;
+border: 2px solid black;
+height: 400px;
+width: 300px;
+display: flex;
+align-items: center;
+flex-direction:column;
+}
+
+button{
+    border: 1px solid black; 
+    background: none;
+}
+
+.tele{
+    width: 300px;
+    padding: 0.5rem;
+}
+.ligne2, .ligne3, .ligne4{
+   display: flex;
+    gap: 1.5rem
+}
+
+.ligne2 > button{
+    margin-top: 1rem;
+    height: 2rem;
+}
+.ligne2 > .vide{
+    width: 200px;
+}
+.ligne3 > button, .ligne4 > button{
+    margin-top: 1rem;
+    height: 2rem;
+}
+.ligne3 button:nth-child(5), .ligne4 button:nth-child(5){
+    width: 2rem;
+}
+.ligne3 button:nth-child(6), .ligne4 button:nth-child(6){
+    width: 3rem;
+}
+
